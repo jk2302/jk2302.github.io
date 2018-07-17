@@ -1,0 +1,184 @@
+ .color {
+     position: fixed;
+     width: 1980px;
+     height: 1100px;
+     left: -265px;
+     top: -240px;
+     overflow: hidden;
+     opacity: 0.9;
+     background: black;
+ }
+ 
+ .heartnext {
+     position: absolute;
+     position: relative;
+     left: 40%;
+     top: 50%;
+     z-index: 102;
+ }
+ 
+ .butterfly {
+     width: 40px;
+     height: 32px;
+     position: absolute;
+     top: 10px;
+     left: 10px;
+     background-image: url(../img/butterfly/butterfly2.png);
+     background-size: cover;
+     motion-offset: 100%;
+     /*谷歌 offset-path*/
+     /*IE不支持路径*/
+     offset-distance: 100%;
+     motion-path: path('m 211.619 15.642 c -137.447 -2.4711 -264.638 212.481 105.926 435.341 c 0.405975 -0.730988 1.96899 -0.730988 2.375 0 c 382.518 -230.049 234.665 -451.64 92.626 -434.391 c -55.373 6.7245 -81.504 37.4565 -93.814 63.888 c -12.309 -26.4315 -38.44 -57.1635 -93.813 -63.888 c -4.438 -0.539301 -8.86601 -0.8702 -13.3 -0.95 l 0 -0.0001 Z');
+     offset-path: path('m 211.619 15.642 c -137.447 -2.4711 -264.638 212.481 105.926 435.341 c 0.405975 -0.730988 1.96899 -0.730988 2.375 0 c 382.518 -230.049 234.665 -451.64 92.626 -434.391 c -55.373 6.7245 -81.504 37.4565 -93.814 63.888 c -12.309 -26.4315 -38.44 -57.1635 -93.813 -63.888 c -4.438 -0.539301 -8.86601 -0.8702 -13.3 -0.95 l 0 -0.0001 Z');
+     animation: move 6s infinite ease-in-out;
+ }
+ 
+ @keyframes move {
+     100% {
+         motion-offset: 0;
+         -ms-motion-offset: 0;
+         offset-distance: 0;
+     }
+ }
+ 
+ .butterfly:nth-of-type(1) {
+     animation-delay: 0s;
+ }
+ 
+ .butterfly:nth-of-type(2) {
+     animation-delay: .2s;
+ }
+ 
+ .butterfly:nth-of-type(3) {
+     animation-delay: .4s;
+ }
+ 
+ .butterfly:nth-of-type(4) {
+     animation-delay: .6s;
+ }
+ 
+ .butterfly:nth-of-type(5) {
+     animation-delay: .8s;
+ }
+ 
+ .butterfly:nth-of-type(6) {
+     animation-delay: 1s;
+ }
+ 
+ .butterfly:nth-of-type(7) {
+     animation-delay: 1.2s;
+ }
+ 
+ .butterfly:nth-of-type(8) {
+     animation-delay: 1.4s;
+ }
+ 
+ .butterfly:nth-of-type(9) {
+     animation-delay: 1.6s;
+ }
+ 
+ .butterfly:nth-of-type(10) {
+     animation-delay: 1.8s;
+ }
+ 
+ .butterfly:nth-of-type(11) {
+     animation-delay: 2s;
+ }
+ 
+ .butterfly:nth-of-type(12) {
+     animation-delay: 2.2s;
+ }
+ 
+ .butterfly:nth-of-type(13) {
+     animation-delay: 2.4s;
+ }
+ 
+ .butterfly:nth-of-type(14) {
+     animation-delay: 2.6s;
+ }
+ 
+ .butterfly:nth-of-type(15) {
+     animation-delay: 2.8s;
+ }
+ 
+ .butterfly:nth-of-type(16) {
+     animation-delay: 3s;
+ }
+ 
+ .butterfly:nth-of-type(17) {
+     animation-delay: 3.2s;
+ }
+ 
+ .butterfly:nth-of-type(18) {
+     animation-delay: 3.4s;
+ }
+ 
+ .butterfly:nth-of-type(19) {
+     animation-delay: 3.6s;
+ }
+ 
+ .butterfly:nth-of-type(20) {
+     animation-delay: 3.8s;
+ }
+ 
+ .butterfly:nth-of-type(21) {
+     animation-delay: 4s;
+ }
+ 
+ .butterfly:nth-of-type(22) {
+     animation-delay: 4.2s;
+ }
+ 
+ .butterfly:nth-of-type(23) {
+     animation-delay: 4.4s;
+ }
+ 
+ .butterfly:nth-of-type(24) {
+     animation-delay: 4.6s;
+ }
+ 
+ .butterfly:nth-of-type(25) {
+     animation-delay: 4.8s;
+ }
+ 
+ .butterfly:nth-of-type(26) {
+     animation-delay: 5s;
+ }
+ 
+ .butterfly:nth-of-type(27) {
+     animation-delay: 5.2s;
+ }
+ 
+ .butterfly:nth-of-type(28) {
+     animation-delay: 5.4s;
+ }
+ 
+ .butterfly:nth-of-type(29) {
+     animation-delay: 5.6s;
+ }
+ 
+ .butterfly:nth-of-type(30) {
+     animation-delay: 5.8s;
+ }
+ 
+ .butterfly:nth-of-type(31) {
+     animation-delay: 6s;
+ }
+ 
+ .butterfly:nth-of-type(32) {
+     animation-delay: 6.2s;
+ }
+ 
+ .love_css {
+     position: absolute;
+     width: 20em;
+     top: 140px;
+     left: 40px;
+ }
+ 
+ .love_css>p {
+     display: none;
+     color: peachpuff;
+     font-size: 1.2em;
+ }
